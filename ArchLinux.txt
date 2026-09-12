@@ -1,0 +1,22 @@
+USB 케이블 연결 (MTP 방식)
+유선으로 안정하게 대용량 파일을 전송할 때 유용합니다.
+설치 (Arch Linux):  sudo pacman -S gvfs-mtp mtpfs
+사용법:USB 케이블로 갤럭시 폰과 PC를 연결합니다.
+폰 화면에서 '휴대폰 데이터 접근 허용' 또는 '파일 전송(MTP)' 모드를 선택합니다.
+Arch Linux의 파일 관리자(Nautilus, Dolphin, Thunar 등)를 열면
+외장 드라이브처럼 폰 내부 저장소가 나타납니다.
+
+hangul install
+sudo pacman -S fcitx5 fcitx5-hangul (fcitx5-im) fcitx5-configtool
+
+yay -S google-chrome
+
+sudo pacman -S yt-dlp ffmpeg
+yt-dlp "유튜브_영상_주소"
+최고 화질로 받기: yt-dlp -f "bestvideo+bestaudio/best" "주소"
+오디오만 추출 (MP3 등): yt-dlp -x --audio-format mp3 "주소"
+
+GUI
+-- yay -S open-video-downloader-bin //UI가 매우 현대적이고 직관적
+yay -S yt-dlg-git //과거부터 오랫동안 사랑받았던 클래식한 다운로더 GUI
+yay -S tartube //고급 사용자를 위한 매우 강력한 프론트엔드 GUI
