@@ -1,4 +1,4 @@
 snapshots
-  sudo btrfs subvolume snapshot -r / /.snapshots/desc
+  sudo btrfs subvolume snapshot (-r) / /.snapshots/desc
   sudo btrfs subvolume list /
   sudo btrfs subvolume delete /경로/스냅샷이름
