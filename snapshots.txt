@@ -1,3 +1,5 @@
+sudo pacman -S btrfs-assistant snapper
+
 snapshots
   sudo btrfs subvolume snapshot (-r) / /.snapshots/desc
   sudo btrfs subvolume list /
