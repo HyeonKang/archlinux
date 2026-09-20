@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#curl -fsSL christitus.com/linux | sh
+
+
 # 스크립트 실행 중 오류 발생 시 즉시 중단
 set -e
 
