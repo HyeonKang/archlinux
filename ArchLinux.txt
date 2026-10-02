@@ -16,7 +16,7 @@ hangul install
 sudo pacman -S fcitx5 fcitx5-hangul (fcitx5-im) fcitx5-configtool
 --in ~/.config/hypr/hyprland.lua
 hl.on("hyprland.start", function()
-    hl.exec_cmd("uwsm app -- fcitx5 -d")
+    hl.exec_cmd("(uwsm app --) fcitx5 -d")
 end)
 -----------------
 
